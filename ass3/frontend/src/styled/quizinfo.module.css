@@ -1,0 +1,233 @@
+.titleContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin:0;
+  padding:0;
+  margin-top:-7px;
+  margin-bottom:-7px
+}
+
+.editbutton {
+  margin-right: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.deletebutton {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right:5px
+}
+
+.titleText {
+  display: flex;
+  justify-content: space-between;
+  width:65%;
+  align-items: center;
+}
+
+.headerTitle {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  background-color: #5e8e8d;
+  color: #fff;
+  padding: 4px;
+}
+
+.headerTitleContainer{
+  width:25%
+}
+
+.headerQuestion {
+  width:25%
+}
+
+.headerDuration {
+  width:25%
+}
+
+.headerState {
+  width:25%
+}
+
+
+@media screen and (max-width: 1300px) {
+  .titleText {
+    width:70%
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .headerDuration {
+    display: none
+  }
+
+  .headerTitleContainer{
+    width:33.3%
+  }
+  
+  .headerQuestion {
+    width:33.3%
+  }
+  
+  .headerState {
+    width:33.3%
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .titleText {
+    width:50%
+  }
+
+  .headerDuration {
+    display: none
+  }
+
+  .headerTitleContainer{
+    width:50%
+  }
+  
+  .headerQuestion {
+    display: none
+  }
+  
+  .headerState {
+    width:50%
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .titleText {
+    width:30%
+  }
+
+  .headerDuration {
+    display: none
+  }
+
+  .headerTitleContainer{
+    width:100%
+  }
+  
+  .headerQuestion {
+    display: none
+  }
+  
+  .headerState {
+    display: none
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .titleText {
+    width:20%
+  }
+
+  .headerDuration {
+    display: none
+  }
+
+  .headerTitleContainer{
+    width:100%
+  }
+  
+  .headerQuestion {
+    display: none
+  }
+  
+  .headerState {
+    display: none
+  }
+}
+
+.stateRed {
+  background-color:red;
+  color:white;
+  font-weight: bold;
+}
+
+.stateGreen {
+  background-color:green;
+  color:white;
+  font-weight: bold;
+}
+
+.bodyText {
+  display: flex;
+  width: 70%;
+  justify-content:space-between
+}
+
+.oneThird {
+  width: 33.3%;
+  margin: 3px;
+}
+
+.thumbnail {
+  width: 10%;
+  margin: 3px;
+}
+
+.thumbnailImage{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px
+}
+
+@media screen and (max-width: 1300px) {
+  .bodyText {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .bodyText {
+    display: block;
+    width: 100%;
+  }
+  .oneThird {
+    width: 100%;
+    margin: 3px;
+  }
+}
+
+.fontWeight {
+  font-weight: bold;
+}
+
+.modalTitle {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Buttonshow {
+  height: 38px;
+  display: inline;
+  margin-right:25px;
+  border-radius:50%;
+  z-index: 10;
+  filter:drop-shadow(2px 2px 2px rgba(0,0,0,.5));
+}
+
+.Buttonunshow {
+  display: none;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.playText {
+  line-height:35px
+}
+
+.sessionLink {
+  font-weight: bold;
+  font-size:22px;
+  color:blue;
+  text-decoration: underline;
+}

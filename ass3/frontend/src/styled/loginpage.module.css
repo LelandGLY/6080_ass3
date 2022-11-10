@@ -1,0 +1,59 @@
+.loginform {
+  margin-top: 20px;
+  margin-bottom:30px;
+  width: 350px;
+}
+
+.loginpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.gotoregisterbutton {
+  color: #dfffff;
+  text-decoration: none
+}
+
+.gotoregister {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top:13px;
+  margin-bottom:13px;
+  font-size: 20px;
+}
+
+.wirteimage {
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  filter:drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+}
+
+.hellowords {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-bottom:12px;
+  margin-top: 20px;
+}
+
+.pleasewords {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pleasecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 350px;
+}
+
+.loginbutton {
+  width: 350px;
+  filter:drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+}
